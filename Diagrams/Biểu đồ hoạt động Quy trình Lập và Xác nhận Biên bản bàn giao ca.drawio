@@ -1,0 +1,176 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="hJWOM9qCmfv2RlHHeY5h">
+    <mxGraphModel dx="2367" dy="2345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="999" width="420" x="1" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="999" width="517" x="421" y="1" as="geometry" />
+        </mxCell>
+        <mxCell id="header1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Nhân viên trực (Ca trước và Ca sau / Trưởng ca)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="41" width="420" x="1" y="-31" as="geometry" />
+        </mxCell>
+        <mxCell id="header2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=14;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Hệ thống Quản lý&lt;/b&gt;" vertex="1">
+          <mxGeometry height="41" width="517" x="421" y="-31" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="147" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="chooseHandover" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=13;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Chọn chức năng Lập biên&lt;br&gt;bản bàn giao ca&lt;/b&gt;" vertex="1">
+          <mxGeometry height="53" width="138" x="85.5" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="mergeInput" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="27" width="27" x="141" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="inputHandover" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Nhập thông tin bàn giao&lt;br&gt;(thông số, sự cố, việc tồn&lt;br&gt;đọng)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="54" width="138" x="85" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="mergeSystem" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="27" width="27" x="626" y="193" as="geometry" />
+        </mxCell>
+        <mxCell id="validateFields" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Kiểm tra các trường dữ&lt;br&gt;liệu bắt buộc&lt;/b&gt;" vertex="1">
+          <mxGeometry height="41" width="122" x="578" y="243" as="geometry" />
+        </mxCell>
+        <mxCell id="decisionInfo" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Thông tin đầy đủ?&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="148" x="565" y="303" as="geometry" />
+        </mxCell>
+        <mxCell id="showError" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Thông báo lỗi, yêu&lt;br&gt;cầu nhập đủ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="46" width="97" x="441" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="createRecord" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Tạo biên bản ở trạng&lt;br&gt;thái &amp;quot;Chờ xác nhận&amp;quot;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="49" width="122" x="578" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="inspectRecord" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Ca trực mới / Trưởng ca&lt;br&gt;kiểm tra thông tin &amp;amp; thực&lt;br&gt;địa&lt;/b&gt;" vertex="1">
+          <mxGeometry height="53" width="138" x="85" y="487" as="geometry" />
+        </mxCell>
+        <mxCell id="decisionResult" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Kết quả kiểm tra?&lt;/b&gt;" vertex="1">
+          <mxGeometry height="62" width="138" x="85" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="chooseReject" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Chọn Từ chối / Yêu&lt;br&gt;cầu chỉnh sửa&lt;/b&gt;" vertex="1">
+          <mxGeometry height="49" width="106" x="295" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="updateCorrection" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Cập nhật trạng thái&lt;br&gt;&amp;quot;Yêu cầu chỉnh sửa&amp;quot;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="49" width="122" x="578" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="editRecord" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Chỉnh sửa / Bổ sung&lt;br&gt;thông tin biên bản&lt;/b&gt;" vertex="1">
+          <mxGeometry height="49" width="122" x="279" y="664" as="geometry" />
+        </mxCell>
+        <mxCell id="confirmRecord" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Chọn Xác nhận biên bản&lt;br&gt;bàn giao&lt;/b&gt;" vertex="1">
+          <mxGeometry height="47" width="138" x="85" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="updateConfirmed" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Cập nhật trạng thái &amp;quot;Đã&lt;br&gt;xác nhận&amp;quot;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="47" width="122" x="578" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="lockRecord" parent="1" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=12;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Khóa dữ liệu biên bản vĩnh&lt;br&gt;viễn (BR05) &amp;amp; chuyển giao&lt;br&gt;ca&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="534.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="finalOuter" parent="1" style="ellipse;aspect=fixed;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="25" width="25" x="627" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="finalInner" parent="1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="13" width="13" x="633" y="966" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="chooseHandover" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="chooseHandover" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="mergeInput" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="mergeInput" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="inputHandover" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="inputHandover" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="mergeSystem" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="223" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="mergeSystem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="validateFields" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="validateFields" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="decisionInfo" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="decisionInfo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;labelBackgroundColor=#FFFFFF;fontSize=11;fontFamily=Times New Roman;" target="showError" value="&lt;b&gt;&lt;i&gt;thiếu thông tin&lt;/i&gt;&lt;/b&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="489" y="348" />
+              <mxPoint x="489" y="382" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="decisionInfo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;labelBackgroundColor=#FFFFFF;fontSize=11;fontFamily=Times New Roman;" target="createRecord" value="&lt;b&gt;&lt;i&gt;hợp lệ&lt;/i&gt;&lt;/b&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="showError" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="mergeInput" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="25" y="428" />
+              <mxPoint x="25" y="146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="createRecord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="inspectRecord" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="639" y="512" />
+              <mxPoint x="223" y="512" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="inspectRecord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="decisionResult" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="decisionResult" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;labelBackgroundColor=#FFFFFF;fontSize=11;fontFamily=Times New Roman;" target="chooseReject" value="&lt;b&gt;&lt;i&gt;không đạt&lt;/i&gt;&lt;/b&gt;">
+          <mxGeometry relative="1" x="-0.25" y="-25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="220" y="605" />
+              <mxPoint x="220" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="decisionResult" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;labelBackgroundColor=#FFFFFF;fontSize=11;fontFamily=Times New Roman;" target="confirmRecord" value="&lt;b&gt;&lt;i&gt;Đạt&lt;/i&gt;&lt;/b&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="chooseReject" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="updateCorrection" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="updateCorrection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="editRecord" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="639" y="688" />
+              <mxPoint x="401" y="688" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="editRecord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="mergeSystem" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="348" y="732" />
+              <mxPoint x="906" y="732" />
+              <mxPoint x="906" y="206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="confirmRecord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="updateConfirmed" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="639" y="788" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="updateConfirmed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="lockRecord" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="lockRecord" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="finalOuter" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

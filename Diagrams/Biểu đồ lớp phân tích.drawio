@@ -1,0 +1,418 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="lo8D2rjQDow99-uckXLg">
+    <mxGraphModel dx="1627" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="class_nguoidung" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;" value="NguoiDung" vertex="1">
+          <mxGeometry height="208" width="240" x="50" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nd_attr1" parent="class_nguoidung" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- maNguoiDung : String" vertex="1">
+          <mxGeometry height="26" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nd_attr2" parent="class_nguoidung" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- hoTen : String" vertex="1">
+          <mxGeometry height="26" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nd_attr3" parent="class_nguoidung" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- tenDangNhap : String" vertex="1">
+          <mxGeometry height="26" width="240" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nd_attr4" parent="class_nguoidung" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- matKhau : String" vertex="1">
+          <mxGeometry height="26" width="240" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="nd_attr5" parent="class_nguoidung" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- vaiTro : VaiTro" vertex="1">
+          <mxGeometry height="26" width="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nd_attr6" parent="class_nguoidung" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- trangThai : String" vertex="1">
+          <mxGeometry height="26" width="240" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="nd_sep" parent="class_nguoidung" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="6" width="240" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="nd_meth1" parent="class_nguoidung" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ getDSNhanSu() : List" vertex="1">
+          <mxGeometry height="20" width="240" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="class_ca" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;" value="Ca" vertex="1">
+          <mxGeometry height="160" width="220" x="410" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_attr1" parent="class_ca" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- maCa : String" vertex="1">
+          <mxGeometry height="26" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_attr2" parent="class_ca" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- tenCa : String" vertex="1">
+          <mxGeometry height="26" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_attr3" parent="class_ca" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- gioBatDau : Time" vertex="1">
+          <mxGeometry height="26" width="220" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_attr4" parent="class_ca" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- gioKetThuc : Time" vertex="1">
+          <mxGeometry height="26" width="220" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_sep" parent="class_ca" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="6" width="220" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ca_meth1" parent="class_ca" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ getDSKhungGio() : List" vertex="1">
+          <mxGeometry height="24" width="220" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="class_vitri" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;" value="ViTri" vertex="1">
+          <mxGeometry height="134" width="220" x="750" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vt_attr1" parent="class_vitri" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- maViTri : String" vertex="1">
+          <mxGeometry height="26" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vt_attr2" parent="class_vitri" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- tenViTri : String" vertex="1">
+          <mxGeometry height="26" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="vt_attr3" parent="class_vitri" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- moTa : String" vertex="1">
+          <mxGeometry height="26" width="220" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="vt_sep" parent="class_vitri" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="6" width="220" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="vt_meth1" parent="class_vitri" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ getDSViTri() : List" vertex="1">
+          <mxGeometry height="24" width="220" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="class_lichtruc" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;" value="LichTruc" vertex="1">
+          <mxGeometry height="176" width="260" x="380" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lt_attr1" parent="class_lichtruc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- maLichTruc : String" vertex="1">
+          <mxGeometry height="26" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lt_attr2" parent="class_lichtruc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- ngayTruc : Date" vertex="1">
+          <mxGeometry height="26" width="260" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="lt_attr3" parent="class_lichtruc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- trangThai : TrangThaiLich" vertex="1">
+          <mxGeometry height="26" width="260" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="lt_sep" parent="class_lichtruc" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="6" width="260" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="lt_meth1" parent="class_lichtruc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ kiemTraTrungLich(maNguoiDung, maCa, maViTri, ngayTruc) : boolean" vertex="1">
+          <mxGeometry height="40" width="260" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lt_meth2" parent="class_lichtruc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ themLichTruc() : void" vertex="1">
+          <mxGeometry height="26" width="260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="class_dondoica" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;" value="DonDoiCa" vertex="1">
+          <mxGeometry height="222" width="260" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc_attr1" parent="class_dondoica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- maDon : String" vertex="1">
+          <mxGeometry height="26" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc_attr2" parent="class_dondoica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- loaiDon : LoaiDon" vertex="1">
+          <mxGeometry height="26" width="260" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc_attr3" parent="class_dondoica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- lyDo : String" vertex="1">
+          <mxGeometry height="26" width="260" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc_attr4" parent="class_dondoica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- thoiDiemGui : DateTime" vertex="1">
+          <mxGeometry height="26" width="260" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc_attr5" parent="class_dondoica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- thoiDiemDuyet : DateTime" vertex="1">
+          <mxGeometry height="26" width="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc_attr6" parent="class_dondoica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- trangThai : TrangThaiDon" vertex="1">
+          <mxGeometry height="26" width="260" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc_sep" parent="class_dondoica" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="6" width="260" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc_meth1" parent="class_dondoica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ kiemTraThoiHan() : boolean" vertex="1">
+          <mxGeometry height="17" width="260" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc_meth2" parent="class_dondoica" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ guiDon() : void" vertex="1">
+          <mxGeometry height="17" width="260" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="class_diemdanh" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;" value="DiemDanh" vertex="1">
+          <mxGeometry height="184" width="240" x="110" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="dd_attr1" parent="class_diemdanh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- maDiemDanh : String" vertex="1">
+          <mxGeometry height="26" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dd_attr2" parent="class_diemdanh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- gioCheckIn : DateTime" vertex="1">
+          <mxGeometry height="26" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="dd_attr3" parent="class_diemdanh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- gioCheckOut : DateTime" vertex="1">
+          <mxGeometry height="26" width="240" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="dd_attr4" parent="class_diemdanh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- trangThai : TrangThaiDiemDanh" vertex="1">
+          <mxGeometry height="26" width="240" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="dd_sep" parent="class_diemdanh" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="6" width="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dd_meth1" parent="class_diemdanh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ checkIn() : void" vertex="1">
+          <mxGeometry height="24" width="240" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="dd_meth2" parent="class_diemdanh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ checkOut() : void" vertex="1">
+          <mxGeometry height="24" width="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="class_nhatky" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;" value="NhatKy" vertex="1">
+          <mxGeometry height="210" width="240" x="410" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_attr1" parent="class_nhatky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- maNhatKy : String" vertex="1">
+          <mxGeometry height="26" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_attr2" parent="class_nhatky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- loai : LoaiNhatKy" vertex="1">
+          <mxGeometry height="26" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_attr3" parent="class_nhatky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- noiDung : String" vertex="1">
+          <mxGeometry height="26" width="240" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_attr4" parent="class_nhatky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- mucDo : String" vertex="1">
+          <mxGeometry height="26" width="240" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_attr5" parent="class_nhatky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- trangThai : TrangThaiNhatKy" vertex="1">
+          <mxGeometry height="26" width="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_attr6" parent="class_nhatky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- thoiGian : DateTime" vertex="1">
+          <mxGeometry height="26" width="240" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_sep" parent="class_nhatky" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="6" width="240" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_meth1" parent="class_nhatky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ ghiNhan() : void" vertex="1">
+          <mxGeometry height="22" width="240" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="class_bangiao" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;" value="BanGiao" vertex="1">
+          <mxGeometry height="242" width="240" x="780" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_attr1" parent="class_bangiao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- maBanGiao : String" vertex="1">
+          <mxGeometry height="26" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_attr2" parent="class_bangiao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- noiDungTongKet : String" vertex="1">
+          <mxGeometry height="26" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_attr3" parent="class_bangiao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- thoiDiemGui : DateTime" vertex="1">
+          <mxGeometry height="26" width="240" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_attr4" parent="class_bangiao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- thoiDiemNhan : DateTime" vertex="1">
+          <mxGeometry height="26" width="240" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_attr5" parent="class_bangiao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- trangThai : TrangThaiBanGiao" vertex="1">
+          <mxGeometry height="26" width="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_sep" parent="class_bangiao" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="6" width="240" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_meth1" parent="class_bangiao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ tongHopNhatKy() : void" vertex="1">
+          <mxGeometry height="20" width="240" y="162" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_meth2" parent="class_bangiao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ kyVaGui() : void" vertex="1">
+          <mxGeometry height="20" width="240" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_meth3" parent="class_bangiao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ xacNhanNhanCa() : void" vertex="1">
+          <mxGeometry height="20" width="240" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="bg_meth4" parent="class_bangiao" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ khoa() : void" vertex="1">
+          <mxGeometry height="20" width="240" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="class_tondong" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;" value="TonDong" vertex="1">
+          <mxGeometry height="132" width="240" x="780" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="td_attr1" parent="class_tondong" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- maTonDong : String" vertex="1">
+          <mxGeometry height="26" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="td_attr2" parent="class_tondong" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- ghiChu : String" vertex="1">
+          <mxGeometry height="26" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="td_attr3" parent="class_tondong" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="- trangThai : String" vertex="1">
+          <mxGeometry height="26" width="240" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="td_sep" parent="class_tondong" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="6" width="240" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="td_meth1" parent="class_tondong" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="+ keThua() : void" vertex="1">
+          <mxGeometry height="22" width="240" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nd_lt" edge="1" parent="1" source="class_nguoidung" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_lichtruc" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="290" />
+              <mxPoint x="450" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult_nd_lt_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="30" x="175" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_nd_lt_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..*" vertex="1">
+          <mxGeometry height="20" width="30" x="410" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="label_nd_lt" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="được phân công" vertex="1">
+          <mxGeometry height="20" width="90" x="302" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ca_lt" edge="1" parent="1" source="class_ca" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_lichtruc" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_ca_lt_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="30" x="500" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_ca_lt_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..*" vertex="1">
+          <mxGeometry height="20" width="30" x="480" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="label_ca_lt" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="diễn ra trong" vertex="1">
+          <mxGeometry height="20" width="80" x="520" y="228" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_vt_lt" edge="1" parent="1" source="class_vitri" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_lichtruc" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="290" />
+              <mxPoint x="590" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult_vt_lt_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="30" x="830" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_vt_lt_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..*" vertex="1">
+          <mxGeometry height="20" width="30" x="595" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="label_vt_lt" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="tại" vertex="1">
+          <mxGeometry height="20" width="30" x="710" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nd_ddc_gui" edge="1" parent="1" source="class_nguoidung" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_dondoica" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_nd_ddc_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="30" x="110" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_nd_ddc_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..*" vertex="1">
+          <mxGeometry height="20" width="30" x="110" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="label_nd_ddc_gui" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="gửi đơn" vertex="1">
+          <mxGeometry height="20" width="50" x="125" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nd_ddc_duyet" edge="1" parent="1" source="class_nguoidung" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_dondoica" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="280" />
+              <mxPoint x="220" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult_nd_ddc_duyet_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..1" vertex="1">
+          <mxGeometry height="20" width="30" x="225" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_nd_ddc_duyet_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..*" vertex="1">
+          <mxGeometry height="20" width="30" x="225" y="298" as="geometry" />
+        </mxCell>
+        <mxCell id="label_nd_ddc_duyet" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="duyệt đơn" vertex="1">
+          <mxGeometry height="20" width="60" x="265" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ddc_lt" edge="1" parent="1" source="class_dondoica" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_lichtruc" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="400" />
+              <mxPoint x="340" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult_ddc_lt_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..*" vertex="1">
+          <mxGeometry height="20" width="30" x="302" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_ddc_lt_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="358" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="label_ddc_lt" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="ứng với" vertex="1">
+          <mxGeometry height="20" width="50" x="325" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_lt_dd" edge="1" parent="1" source="class_lichtruc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_diemdanh" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="560" />
+              <mxPoint x="230" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult_lt_dd_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="410" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_lt_dd_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..1" vertex="1">
+          <mxGeometry height="20" width="30" x="235" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="label_lt_dd" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="được điểm danh" vertex="1">
+          <mxGeometry height="20" width="90" x="310" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_lt_nk" edge="1" parent="1" source="class_lichtruc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_nhatky" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="560" />
+              <mxPoint x="510" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult_lt_nk_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="515" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_lt_nk_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..*" vertex="1">
+          <mxGeometry height="20" width="30" x="475" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="label_lt_nk" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="ghi nhận" vertex="1">
+          <mxGeometry height="20" width="60" x="515" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_lt_bg_cagiao" edge="1" parent="1" source="class_lichtruc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_bangiao" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="360" />
+              <mxPoint x="710" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult_lt_bg_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="642" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_lt_bg_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..1" vertex="1">
+          <mxGeometry height="20" width="30" x="745" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="label_lt_bg_cagiao" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="caGiao" vertex="1">
+          <mxGeometry height="20" width="50" x="690" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_lt_bg_canhan" edge="1" parent="1" source="class_lichtruc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_bangiao" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="440" />
+              <mxPoint x="710" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult_lt_bg_3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..1" vertex="1">
+          <mxGeometry height="20" width="30" x="642" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_lt_bg_4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..1" vertex="1">
+          <mxGeometry height="20" width="30" x="745" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="label_lt_bg_canhan" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="caNhan" vertex="1">
+          <mxGeometry height="20" width="50" x="690" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_bg_td" edge="1" parent="1" source="class_bangiao" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=diamondThin;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_tondong" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_bg_td_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="900" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_bg_td_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..*" vertex="1">
+          <mxGeometry height="20" width="30" x="900" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="label_bg_td" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="chuyển" vertex="1">
+          <mxGeometry height="20" width="50" x="905" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nk_td" edge="1" parent="1" source="class_nhatky" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="class_tondong" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="755" />
+              <mxPoint x="715" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mult_nk_td_1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="1" vertex="1">
+          <mxGeometry height="20" width="20" x="652" y="734" as="geometry" />
+        </mxCell>
+        <mxCell id="mult_nk_td_2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="0..*" vertex="1">
+          <mxGeometry height="20" width="30" x="748" y="734" as="geometry" />
+        </mxCell>
+        <mxCell id="label_nk_td" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="trở thành" vertex="1">
+          <mxGeometry height="20" width="60" x="685" y="754" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

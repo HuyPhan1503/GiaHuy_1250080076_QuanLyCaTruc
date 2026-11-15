@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="yuVBLn-RKcjvQH_KJLhJ">
+    <mxGraphModel dx="1953" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="1153" width="403" x="2" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="1153" width="531" x="405" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="header1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Trưởng ca / Quản lý&lt;/b&gt;" vertex="1">
+          <mxGeometry height="34" width="403" x="2" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="header2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Hệ thống&lt;/b&gt;" vertex="1">
+          <mxGeometry height="34" width="531" x="405" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="start" parent="1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="184" y="57" as="geometry" />
+        </mxCell>
+        <mxCell id="choose" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Chọn chức năng phân&lt;br&gt;công lịch trực&lt;/b&gt;" vertex="1">
+          <mxGeometry height="58" width="208" x="94" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="displayList" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Hiển thị danh sách nhân&lt;br&gt;sự, vị trí và khung giờ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="69" width="208" x="544" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="inputInfo" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Nhập thông tin phân công&lt;br&gt;(nhân sự, vị trí, ca, ngày)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="74" width="208" x="94" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="merge" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="630" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="checkDuplicate" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Kiểm tra trùng lịch&lt;br&gt;(BR01)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="58" width="208" x="544" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Có trùng lịch?&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="161" x="568" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="showError" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Hiển thị thông báo&lt;br&gt;lỗi trùng lịch&lt;/b&gt;" vertex="1">
+          <mxGeometry height="64" width="175" x="423" y="764" as="geometry" />
+        </mxCell>
+        <mxCell id="adjustInfo" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Điều chỉnh thông tin&lt;br&gt;phân công&lt;/b&gt;" vertex="1">
+          <mxGeometry height="64" width="208" x="94" y="764" as="geometry" />
+        </mxCell>
+        <mxCell id="saveSchedule" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Lưu lịch trực vào&lt;br&gt;CSDL&lt;/b&gt;" vertex="1">
+          <mxGeometry height="64" width="173" x="706" y="764" as="geometry" />
+        </mxCell>
+        <mxCell id="sendNotice" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Gửi thông báo phân&lt;br&gt;công cho nhân viên&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="173" x="706" y="868" as="geometry" />
+        </mxCell>
+        <mxCell id="showSuccess" parent="1" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;fontSize=17;fontFamily=Times New Roman;align=center;verticalAlign=middle;" value="&lt;b&gt;Hiển thị thông báo&lt;br&gt;phân công thành&lt;br&gt;công&lt;/b&gt;" vertex="1">
+          <mxGeometry height="65" width="173" x="706" y="972" as="geometry" />
+        </mxCell>
+        <mxCell id="final" parent="1" style="ellipse;aspect=fixed;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="778" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="finalInner" parent="1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="16" width="16" x="784" y="1081" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="choose" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="choose" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="displayList" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="648" y="146" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="displayList" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="inputInfo" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="197" y="244" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="inputInfo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="merge" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="648" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="adjustInfo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="merge" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="197" y="457" />
+              <mxPoint x="648" y="457" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="merge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="checkDuplicate" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="checkDuplicate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="decision" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="decision" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;labelBackgroundColor=#FFFFFF;fontSize=17;fontFamily=Times New Roman;" target="showError" value="&lt;b&gt;Trùng lịch&lt;/b&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="509" y="653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="decision" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;labelBackgroundColor=#FFFFFF;fontSize=17;fontFamily=Times New Roman;" target="saveSchedule" value="&lt;b&gt;Hợp lệ&lt;/b&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="792" y="653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="showError" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="adjustInfo" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="saveSchedule" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="sendNotice" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="sendNotice" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="showSuccess" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="showSuccess" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;" target="final" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="N6PiHFMpClbC3WMpBGzl">
+    <mxGraphModel dx="1627" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#990033;fontFamily=Times New Roman;fontSize=13;fontStyle=1" value="&lt;span&gt;FrmDangNhap&lt;/span&gt;&lt;hr&gt;Đăng nhập" vertex="1">
+          <mxGeometry height="56" width="200" x="475" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#990033;fontFamily=Times New Roman;fontSize=13;fontStyle=1" value="&lt;span&gt;FrmMain&lt;/span&gt;&lt;hr&gt;Trang chủ" vertex="1">
+          <mxGeometry height="56" width="220" x="465" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#990033;endArrow=block;endFill=1;fontFamily=Times New Roman;fontSize=13;fontStyle=1" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#990033;fontFamily=Times New Roman;fontSize=13;fontStyle=1" value="&lt;span&gt;FrmLichTruc&lt;/span&gt;&lt;hr&gt;Lịch trực&lt;br&gt;Phân công · Xem lịch · Ca gãy" vertex="1">
+          <mxGeometry height="76" width="196" x="33" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#990033;endArrow=block;endFill=1;fontFamily=Times New Roman;fontSize=13;fontStyle=1" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#990033;fontFamily=Times New Roman;fontSize=13;fontStyle=1" value="&lt;span&gt;FrmDiemDanh&lt;/span&gt;&lt;hr&gt;Điểm danh&lt;br&gt;Check-in · Check-out" vertex="1">
+          <mxGeometry height="76" width="196" x="255" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#990033;endArrow=block;endFill=1;fontFamily=Times New Roman;fontSize=13;fontStyle=1" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#990033;fontFamily=Times New Roman;fontSize=13;fontStyle=1" value="&lt;span&gt;FrmBanGiao&lt;/span&gt;&lt;hr&gt;Bàn giao ca&lt;br&gt;Nhật ký · Biên bản · Tồn đọng" vertex="1">
+          <mxGeometry height="76" width="196" x="477" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#990033;endArrow=block;endFill=1;fontFamily=Times New Roman;fontSize=13;fontStyle=1" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#990033;fontFamily=Times New Roman;fontSize=13;fontStyle=1" value="&lt;span&gt;FrmDonDoiCa&lt;/span&gt;&lt;hr&gt;Đơn đổi ca / nghỉ phép&lt;br&gt;Gửi đơn · Duyệt đơn" vertex="1">
+          <mxGeometry height="76" width="196" x="699" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#990033;endArrow=block;endFill=1;fontFamily=Times New Roman;fontSize=13;fontStyle=1" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#990033;fontFamily=Times New Roman;fontSize=13;fontStyle=1" value="&lt;span&gt;FrmThongKe&lt;/span&gt;&lt;hr&gt;Thống kê&lt;br&gt;Báo cáo ca trực" vertex="1">
+          <mxGeometry height="76" width="196" x="921" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#990033;endArrow=block;endFill=1;fontFamily=Times New Roman;fontSize=13;fontStyle=1" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

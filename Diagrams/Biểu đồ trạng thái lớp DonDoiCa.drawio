@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="U-M7Yx40WeQx_0TyN8VI">
+    <mxGraphModel dx="1347" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="initial_state" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="465" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="state_moitao" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Mới tạo" vertex="1">
+          <mxGeometry height="50" width="260" x="345" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="state_choduyet" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Chờ duyệt" vertex="1">
+          <mxGeometry height="50" width="710" x="120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="state_daduyet" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Đã duyệt" vertex="1">
+          <mxGeometry height="50" width="180" x="80" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="state_tuchoi" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Từ chối" vertex="1">
+          <mxGeometry height="50" width="180" x="385" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="state_dahuy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Times New Roman;fontSize=14;fontStyle=1;" value="Đã hủy" vertex="1">
+          <mxGeometry height="50" width="180" x="680" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="final_state" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="460" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="final_inner" parent="final_state" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="18" width="18" x="6" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_init_mt" edge="1" parent="1" source="initial_state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="state_moitao" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_init_mt" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="tạo đơn đổi ca / nghỉ phép (UC06)" vertex="1">
+          <mxGeometry height="20" width="220" x="475" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_mt_cd" edge="1" parent="1" source="state_moitao" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="state_choduyet" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_mt_cd" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="gửi đơn tới quản lý" vertex="1">
+          <mxGeometry height="20" width="130" x="480" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_mt_dh" edge="1" parent="1" source="state_moitao" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="state_dahuy" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="145" />
+              <mxPoint x="930" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_mt_dh" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="nhân viên chủ động&#xa;hủy đơn" vertex="1">
+          <mxGeometry height="35" width="130" x="935" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cd_dd" edge="1" parent="1" source="state_choduyet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="state_daduyet" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_cd_dd" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="phê duyệt đơn (BR06)" vertex="1">
+          <mxGeometry height="20" width="140" x="30" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cd_tc" edge="1" parent="1" source="state_choduyet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="state_tuchoi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_cd_tc" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="từ chối đơn (BR06)" vertex="1">
+          <mxGeometry height="20" width="130" x="349" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cd_dh" edge="1" parent="1" source="state_choduyet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="state_dahuy" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_cd_dh" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;fontStyle=3;" value="nhân viên thu hồi đơn" vertex="1">
+          <mxGeometry height="20" width="150" x="770" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dd_fin" edge="1" parent="1" source="state_daduyet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="final_state" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_tc_fin" edge="1" parent="1" source="state_tuchoi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="final_state" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_dh_fin" edge="1" parent="1" source="state_dahuy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontStyle=1" target="final_state" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
